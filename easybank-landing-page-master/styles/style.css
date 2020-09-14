@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+body {
+  font-family: "Public Sans", sans-serif;
+}
+nav {
+  background-color: white;
+}
+.navigation-clean .navbar-brand {
+  font-weight: 700;
+  color: inherit;
+}
+.navigation-clean .navbar-brand:hover {
+  color: #222;
+}
+.navigation-clean .navbar-toggler {
+  border-color: #ddd;
+  color: #888;
+}
+.navigation-clean .navbar-toggler:focus,
+.navigation-clean .navbar-toggler:hover {
+  background: 0 0;
+}
+.navigation-clean .form-inline,
+.navigation-clean .navbar-collapse {
+  border-top-color: #ddd;
+}
+.navigation-clean .navbar-nav a.active,
+.navigation-clean .navbar-nav > .show > a {
+  background: 0 0;
+  box-shadow: none;
+}
+.navigation-clean.navbar-light .navbar-nav a.active,
+.navigation-clean.navbar-light .navbar-nav a.active:focus,
+.navigation-clean.navbar-light .navbar-nav a.active:hover {
+  color: #8f8f8f;
+  box-shadow: none;
+  background: 0 0;
+  pointer-events: none;
+}
+.navigation-clean.navbar .navbar-nav .nav-link {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.navigation-clean.navbar-light .navbar-nav .nav-link {
+  color: #465765;
+}
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus,
+.navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color: #37434d !important;
+  background-color: transparent;
+}
+.navigation-clean-button .action-button:active,
+.navigation-clean .action-button,
+#invite {
+  background: #56c6c6;
+  border-radius: 20px;
+  font-size: inherit;
+  color: #fff !important;
+  box-shadow: none;
+  border: none;
+  text-shadow: none;
+  padding: 8px 20px;
+  transition: background-color 0.25s;
+}
+.navigation-clean .action-button:focus,
+.navigation-clean .action-button:hover {
+  background: #66d7d7;
+}
+#navcol-1 {
+  flex-grow: unset;
+}
+#background {
+  position: absolute;
+  /* max-height: 100vh; */
+  transform: translate(0, -25%);
+}
+#mockup {
+  position: absolute;
+  /* position: absolute; */
+  transform: translate(14%, -13%);
+  z-index: 10;
+}
+#intro {
+  min-height: 90vh;
+}
+.grey {
+  background-color: hsl(0, 0%, 98%);
+}
+.heading {
+  font-weight: 300;
+}
